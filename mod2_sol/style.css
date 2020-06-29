@@ -1,9 +1,47 @@
-
-.row{
-	 background-color:#f4f4f4;
-
+body {
+  background-color: #f4f4f4;
 }
-.box
-{
-	border:1px solid black;
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  float: right;
+  width: fit-content;
+  background-color: chartreuse;
+  padding: 0;
+}
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+.block {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+
+  margin: 4px;
+  width: 30%;
+}
+
+/* @media screen and (max-width: 992px) {
+  .block {
+    width: 30%;
+  }
+} */
+
+@media screen and (max-width: 992px) {
+  .block1 {
+    width: 45%;
+  }
+  .block2 {
+    width: 93%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .block {
+    width: 95%;
+  }
 }
